@@ -157,14 +157,15 @@
     <hostdev mode='subsystem' type='pci' managed='yes'>
       <driver name='vfio'/>
       <source>
-        <address domain='0x0000' bus='0x23' slot='0x00' function='0x0'/>
+        <address domain='0x0000' bus='0x2d' slot='0x00' function='0x0'/>
       </source>
+      <rom file='/mnt/user/install/VMs/msi2070super.rom'/>
       <address type='pci' domain='0x0000' bus='0x06' slot='0x00' function='0x0'/>
     </hostdev>
     <hostdev mode='subsystem' type='pci' managed='yes'>
       <driver name='vfio'/>
       <source>
-        <address domain='0x0000' bus='0x23' slot='0x00' function='0x1'/>
+        <address domain='0x0000' bus='0x2d' slot='0x00' function='0x1'/>
       </source>
       <address type='pci' domain='0x0000' bus='0x07' slot='0x00' function='0x0'/>
     </hostdev>
@@ -178,14 +179,14 @@
     <hostdev mode='subsystem' type='pci' managed='yes'>
       <driver name='vfio'/>
       <source>
-        <address domain='0x0000' bus='0x23' slot='0x00' function='0x2'/>
+        <address domain='0x0000' bus='0x2d' slot='0x00' function='0x2'/>
       </source>
       <address type='pci' domain='0x0000' bus='0x08' slot='0x00' function='0x0'/>
     </hostdev>
     <hostdev mode='subsystem' type='pci' managed='yes'>
       <driver name='vfio'/>
       <source>
-        <address domain='0x0000' bus='0x23' slot='0x00' function='0x3'/>
+        <address domain='0x0000' bus='0x2d' slot='0x00' function='0x3'/>
       </source>
       <address type='pci' domain='0x0000' bus='0x09' slot='0x00' function='0x0'/>
     </hostdev>
